@@ -4,5 +4,7 @@
 <html>
 <body>
 <h2>博客</h2>
+
+<a href="view/login.jsp">登录</a>
 </body>
 </html>

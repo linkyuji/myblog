@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.linkyuji.core.dao.UserDao" >
+  <select id="getLogin" parameterType="java.lang.String" resultType="com.linkyuji.core.pojo.UserBean">
+  		select *
+  		from user
+  		where username = #{username,jdbcType=VARCHAR}
+  </select>
+  <select id="loadAllUser" resultType="com.linkyuji.core.pojo.UserBean">
+  	select *
+  	from user
+  </select>
+</mapper>

@@ -7,6 +7,13 @@
 <title>登录</title>
 </head>
 <body>
-
+<form action="login.do" method="post">
+<h2>登录</h2>
+<input name="username" type="text">
+<br>
+<input name="password" type="password">
+<br>
+<input type="submit" value="登录">
+</form>
 </body>
 </html>
